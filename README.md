@@ -10,8 +10,8 @@ Lung cancer screening with chest CT reduces lung cancer deaths. Currently, CT sc
 CXR-LC is a CNN that predicts the risk of 12-year incident lung cancer based on a chest radiograph image, and a person's age, sex, and smoking status (current vs. former smoker). In our testing dataset, CXR-LC had better discrimination than the CMS criteria (AUC 0.755 vs 0.634, p < 0.001). When matching the size of the CMS eligible population, CXR-LC missed 30.7% fewer lung cancers. 
 
 
-**Kaplan-Meier survival based on CXR-Risk category**
-[![CXR-Risk Kaplan-Meier Survival](/images/fig2.png)](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2738349)
+**Inverted Kaplan-Meier for Incident Lung Cancer based on CXR-LC category**
+[CXR-LC Kaplan-Meier](/images/KM_Curve.png)
 
 This repo contains data intended to promote reproducible research. It is not for clinical care or commercial use. 
 
