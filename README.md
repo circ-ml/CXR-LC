@@ -1,13 +1,13 @@
 # CXR-LC: Deep learning using Chest Radiographs to Identify High-risk Smokers for Lung Cancer Screening: Development and Validation of a Prediction Model
 
-[![CXR-Risk Grad-CAM](/images/GradCAM.png)]
+![CXR-Risk Grad-CAM](/images/GradCAM.png)
 
 To appear in Annals of Internal Medicine.
 
 ## Overview
-Chest radiographs (x-rays or CXR) are the most common diagnostic imaging test in medicine. Radiographs are intended to address a specific clinical question (e.g. rule out pneumonia), and most are considered "normal." We hypothesized that normal radiographs also contain "hidden" information about health and longevity that can be extracted using a convolutional neural network (CNN). 
+Lung cancer screening with chest CT reduces lung cancer deaths. Currently, CT screening is offered to those eligible by the Centers for Medicare and Medicaid services (CMS) screening criteria. This criteria misses many lung cancers and requires detailed smoking history information that is poorly documented in the medical record. Chest x-rays are among the most common diagnostic imaging tests in medicine. We hypothesized that a convolutional neural network (CNN) could extract information from these x-rays, along with data readily documented in the medical record, to select individuals at the highest risk for future lung cancer.
 
-The result is CXR-Risk, a CNN that predicts the risk of 12-year all-cause mortality based on a chest radiograph image. Persons in the highest CXR-risk category had a 53% 12-year mortality rate, 18-fold higher than the lowest risk. Prognostic value was independent of the radiologists' diagnostic findings (e.g. lung nodule) and standard risk factors (e.g. age, sex, diabetes). Please refer to the [JAMA Open manuscript](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2738349) for details.
+CXR-LC is a CNN that predicts the risk of 12-year incident lung cancer based on a chest radiograph image, and a person's age, sex, and smoking status (current vs. former smoker). In our testing dataset, CXR-LC had better discrimination than the CMS criteria (AUC 0.755 vs 0.634, p < 0.001). When matching the size of the CMS eligible population, CXR-LC missed 30.7% fewer lung cancers. 
 
 
 **Kaplan-Meier survival based on CXR-Risk category**
