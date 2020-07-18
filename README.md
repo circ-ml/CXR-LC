@@ -33,9 +33,11 @@ Dummy data files are provided in `dummy_datasets/Tabular_Data.csv` and `dummy_da
 
 Age input into the model must be normalized by the following equation:
 
-Model_Age = (age - 62.71093709214304) / 5.2805621041415804
-Sex should be encoded as 0 = Male and 1 = Female
-Smoking Status should be encoded as 0 = current smoker and 1 = former smoker
+Model_Age = (age - 62.71093709214304) / 5.2805621041415804 .
+
+Sex should be encoded as 0 = Male and 1 = Female .
+
+Smoking Status should be encoded as 0 = current smoker and 1 = former smoker .
 
 
 A Docker image is planned -- watch this repo for details.
