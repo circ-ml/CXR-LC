@@ -1,0 +1,6 @@
+"filename","age","sex","smoke","Real_Age","Real_Sex","Real_Status","is_lungcancer"
+"E.png",0.0547409351800341,1,1,63,"Male","Former",0
+"B.png",1.56973116580824,1,1,71,"Male","Former",0
+"D.png",0.433488492837085,1,1,65,"Male","Former",1
+"C.png",-0.513380401305542,2,1,60,"Female","Former",0
+"A.png",0.62286227166561,2,0,66,"Female","Current",0
