@@ -1,11 +1,8 @@
-# CXR-Risk: Deep learning to predict long-term mortality from chest radiographs
+# CXR-LC: Deep learning using Chest Radiographs to Identify High-risk Smokers for Lung Cancer Screening: Development and Validation of a Prediction Model
 
 [![CXR-Risk Grad-CAM](/images/fig_small3.png)](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2738349)
 
-[Lu MT, Ivanov A, Mayrhofer T, Hosny A, Aerts HJWL, Hoffmann U. Deep learning to assess long-term mortality from chest radiographs. *JAMA Network Open*. 2019;2(7):e197416. doi:10.1001/jamanetworkopen.2019.7416](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2738349)
-
-[Audio commentary](https://edhub.ama-assn.org/jn-learning/audio-player/17718397)
-
+To appear in Annals of Internal Medicine.
 
 ## Overview
 Chest radiographs (x-rays or CXR) are the most common diagnostic imaging test in medicine. Radiographs are intended to address a specific clinical question (e.g. rule out pneumonia), and most are considered "normal." We hypothesized that normal radiographs also contain "hidden" information about health and longevity that can be extracted using a convolutional neural network (CNN). 
