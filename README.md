@@ -1,6 +1,6 @@
 # CXR-LC: Deep learning using Chest Radiographs to Identify High-risk Smokers for Lung Cancer Screening: Development and Validation of a Prediction Model
 
-[![CXR-Risk Grad-CAM](/images/fig_small3.png)](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2738349)
+[![CXR-Risk Grad-CAM](/images/GradCAM.png)]
 
 To appear in Annals of Internal Medicine.
 
