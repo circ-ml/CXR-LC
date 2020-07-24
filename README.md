@@ -20,10 +20,12 @@ This inference code was tested on Ubuntu 18.04.3 LTS, conda version 4.8.0, pytho
 
 Inference can be run on the GPU or CPU, and should work with ~4GB of GPU or CPU RAM. For GPU inference, a CUDA 10 capable GPU is required.
 
+For the model weights to download, Github's large file service must be downloaded and installed: https://git-lfs.github.com/ 
+
 This example is best run in a conda environment:
 
 ```bash
-git clone https://github.com/vineet1992/CXRLC/
+git lfs clone https://github.com/vineet1992/CXRLC/
 cd location_of_repo
 conda env create -n CXRLC -f environment.yml
 conda activate CXRLC
