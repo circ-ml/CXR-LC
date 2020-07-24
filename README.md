@@ -23,6 +23,7 @@ Inference can be run on the GPU or CPU, and should work with ~4GB of GPU or CPU 
 This example is best run in a conda environment:
 
 ```bash
+git clone https://github.com/vineet1992/CXRLC/
 cd location_of_repo
 conda env create -n CXRLC -f environment.yml
 conda activate CXRLC
