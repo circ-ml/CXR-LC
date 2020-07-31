@@ -7,7 +7,7 @@ To appear in Annals of Internal Medicine.
 ## Overview
 Lung cancer screening with chest CT reduces lung cancer deaths. Currently, CT screening is offered to those eligible by the Centers for Medicare and Medicaid services (CMS) screening criteria. This criteria misses many lung cancers and requires detailed smoking history information that is poorly documented in the medical record. Chest x-rays are among the most common diagnostic imaging tests in medicine. We hypothesized that a convolutional neural network (CNN) could extract information from these x-rays, along with data readily documented in the medical record, to select individuals at the highest risk for future lung cancer.
 
-CXR-LC is a CNN that predicts the risk of 12-year incident lung cancer based on a chest radiograph image, and a person's age, sex, and smoking status (current vs. former smoker). In our testing dataset, CXR-LC had better discrimination than the CMS criteria (AUC 0.755 vs 0.634, p < 0.001). When matching the size of the CMS eligible population, CXR-LC missed 30.7% fewer lung cancers. 
+CXR-LC is a CNN that predicts the risk of 12-year incident lung cancer based on a chest radiograph image, and a person's age, sex, and smoking status (current vs. former smoker). In our testing dataset (referred to as "validation" dataset in the publication), CXR-LC had better discrimination than the CMS criteria (AUC 0.755 vs 0.634, p < 0.001). When matching the size of the CMS eligible population, CXR-LC missed 30.7% fewer lung cancers. 
 
 
 **Inverted Kaplan-Meier for Incident Lung Cancer based on CXR-LC category**
@@ -41,9 +41,6 @@ Model_Age = (age - 62.71093709214304) / 5.2805621041415804 .
 Sex should be encoded as 0 = Male and 1 = Female .
 
 Smoking Status should be encoded as 0 = current smoker and 1 = former smoker .
-
-
-A Docker image is planned -- watch this repo for details.
 
 ## Datasets
 PLCO (NCT00047385) data used for model development and testing are available from the National Cancer Institute (NCI, https://biometry.nci.nih.gov/cdas/plco/). NLST (NCT01696968) testing data is available from the NCI (https://biometry.nci.nih.gov/cdas/nlst/) and the American College of Radiology Imaging Network (ACRIN, https://www.acrin.org/acrin-nlstbiorepository.aspx). Due to the terms of our data use agreement, we cannot distribute the original data. Please instead obtain the data directly from the NCI and ACRIN.
