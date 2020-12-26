@@ -4,7 +4,7 @@
 
 [Lu MT*, Raghu VK*, Mayrhofer T, Aerts HJWL, Hoffmann U. Deep learning using chest radiographs to identify high-risk smokers for lung cancer screening computed tomography: Development and validation of a prediction model. Annals of Internal Medicine 2020;173:704-713.](https://pubmed.ncbi.nlm.nih.gov/32866413/)
 
-[Editorial](https://pubmed.ncbi.nlm.nih.gov/32866415/)
+[Editorial by Pinsky P. Artificial Intelligence and Data Mining to Assess Lung Cancer Risk: Challenges and Opportunities. Annals of Internal Medicine 2020;173(9):760-761.](https://pubmed.ncbi.nlm.nih.gov/32866415/)
 
 ## Overview
 Lung cancer screening with chest CT reduces lung cancer deaths. Currently, CT screening is offered to those eligible by the Centers for Medicare and Medicaid services (CMS) screening criteria. This criteria misses many lung cancers and requires detailed smoking history information that is poorly documented in the medical record. Chest x-rays are among the most common diagnostic imaging tests in medicine. We hypothesized that a convolutional neural network (CNN) could extract information from these x-rays, along with data readily documented in the medical record, to select individuals at the highest risk for future lung cancer.
