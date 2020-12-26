@@ -2,8 +2,7 @@
 
 ![CXR-LC Grad-CAM](/images/GradCAM.png)
 
-[Lu MT*, Raghu VK*, Mayrhofer T, Aerts HJWL, Hoffmann U. Deep learning using chest radiographs to identify high-risk smokers for lung cancer screening computed tomography: Development and validation of a prediction model. Annals of Internal Medicine 2020;173:704-713.](https://pubmed.ncbi.nlm.nih.gov/32866413/)
-<p>*Equal contribution</p>
+[Lu MT*, Raghu VK*, Mayrhofer T, Aerts HJWL, Hoffmann U. Deep learning using chest radiographs to identify high-risk smokers for lung cancer screening computed tomography: Development and validation of a prediction model. Annals of Internal Medicine 2020;173:704-713.](https://pubmed.ncbi.nlm.nih.gov/32866413/) *Equal contribution
 
 [Editorial by Pinsky P. Artificial Intelligence and Data Mining to Assess Lung Cancer Risk: Challenges and Opportunities. Annals of Internal Medicine 2020;173(9):760-761.](https://pubmed.ncbi.nlm.nih.gov/32866415/)
 
