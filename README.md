@@ -13,7 +13,7 @@ CXR-LC is a CNN that predicts the risk of 12-year incident lung cancer based on 
 
 
 **Inverted Kaplan-Meier for Incident Lung Cancer based on CXR-LC category**
-![CXR-LC Kaplan-Meier](/images/KM_Curve.png)
+![CXR-LC Kaplan-Meier](/images/KM_Curve_cropped.jpg)
 
 This repo contains data intended to promote reproducible research. It is not for clinical care or commercial use. 
 
