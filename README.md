@@ -9,7 +9,7 @@
 ## Overview
 Lung cancer screening with chest CT reduces lung cancer deaths. Currently, CT screening is offered to those eligible by the Centers for Medicare and Medicaid services (CMS) screening criteria. This criteria misses many lung cancers and requires detailed smoking information (e.g. cigarette pack-years) that is poorly documented in the electronic medical record (EMR). Less than 5% of Americans eligible for lung cancer screening CT are screened, a dismal rate compared to breast (64%) and colorectal (63%) cancer screening. An automated way to flag high risk smokers could improve screening participation and prevent lung cancer death.
 
-Chest x-rays are among the most common diagnostic imaging tests in medicine. We hypothesized that a convolutional neural network (CNN) could extract information from these x-rays, along with other data commonly available in the electronic medical record, to identify individuals at high risk for lung cancer who would benefit from lung cancer screening CT.
+Chest x-rays (radiographs or CXRs) are among the most common diagnostic imaging tests in medicine. We hypothesized that a convolutional neural network (CNN) could extract information from these x-rays, along with other data commonly available in the electronic medical record, to identify individuals at high risk for lung cancer who would benefit from lung cancer screening CT.
 
 Our CXR-LC CNN predicts the risk of 12-year incident lung cancer based on a chest radiograph image, age, sex, and smoking status (current vs. former smoker). CXR-LC was developed in 41,856 persons from the Prostate, Lung, Colorectal and Ovarian cancer screening trial (PLCO), a randomized controlled trial of chest x-ray to screen healthy persons for lung cancer. 
 
