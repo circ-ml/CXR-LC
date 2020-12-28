@@ -13,7 +13,7 @@ Chest x-rays (radiographs or CXRs) are among the most common diagnostic imaging 
 
 Our CXR-LC CNN outputs a probability of 12-year incident lung cancer based on inputs of a chest radiograph image, age, sex, and smoking status (current vs. former smoker). CXR-LC was developed in 41,856 persons from the Prostate, Lung, Colorectal and Ovarian cancer screening trial (PLCO), a randomized controlled trial of chest x-ray to screen healthy persons for lung cancer. 
 
-CXR-LC was tested (referred to as "validation" in the publication) in an independent cohort of 5,615 PLCO smokers and externally tested in 5,493 heavy smokers from the National Lung Screening Trial (NLST). CXR-LC had better discrimination than the current clinical standard, the CMS eligibility criteria for lung cancer screening CT (AUC 0.755 vs 0.634, p < 0.001). When compared at equal-sized screening populations to the CMS criteria, CXR-LC missed 30.7% fewer lung cancers. 
+CXR-LC was tested (referred to as "validation" in the publication) in an independent cohort of 5,615 PLCO smokers and externally tested in 5,493 heavy smokers from the National Lung Screening Trial (NLST). CXR-LC performed better than the current clinical standard, the CMS eligibility criteria for lung cancer screening CT (AUC 0.755 vs 0.634, p < 0.001). When compared at equal-sized screening populations to the CMS criteria, CXR-LC missed 30.7% fewer lung cancers. 
 
 
 
