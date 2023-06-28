@@ -6,6 +6,12 @@
 
 [Editorial by Pinsky P. Artificial Intelligence and Data Mining to Assess Lung Cancer Risk: Challenges and Opportunities. Annals of Internal Medicine 2020;173(9):760-761.](https://pubmed.ncbi.nlm.nih.gov/32866415/)
 
+Subsequent external validation:
+
+[Lee JH, Lee D, Lu MT, Raghu VK, Park CM, Goo JM, Choi SH, Kim H. Deep learning to optimize candidate selection for lung cancer CT screening: Advancing the 2021 USPSTF Recommendations. Radiology 2022;305(1):209-218.](https://pubmed.ncbi.nlm.nih.gov/35699582/)
+
+[Raghu VK, Walia AS, Zinzuwadia AN, Goiffon RJ, Shepard JO, Aerts HJWL, Lennes IT, Lu MT. Validation of a deep learning-based model to predict lung cancer risk using chest x-rays and electronic medical record data. JAMA Network Open 2022;5(12):e2248793.](https://pubmed.ncbi.nlm.nih.gov/36576736/)
+
 ## Overview
 Lung cancer screening with chest CT reduces lung cancer deaths. Currently, CT screening is offered to those eligible by the Centers for Medicare and Medicaid services (CMS) screening criteria. This criteria misses many lung cancers and requires detailed smoking information (e.g. cigarette pack-years) that is poorly documented in the electronic medical record (EMR). Less than 5% of Americans eligible for lung cancer screening CT are screened, a dismal rate compared to breast (64%) and colorectal (63%) cancer screening. An automated way to flag high risk smokers could improve screening participation and prevent lung cancer death.
 
