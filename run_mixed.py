@@ -162,6 +162,18 @@ if __name__ == '__main__':
         cont = arguments['--cont'].split(sep=',')
     if(arguments['--cat']!="None"):
         cat = arguments['--cat'].split(sep=',')
+        
+    ### Convert to "category" 03/26/2025 Update
+    
+    for c in cat:
+        # Convert to string first to ensure consistent type
+        output_df[c] = output_df[c].astype(str)
+    
+        # Explicitly convert to category with ordered categories
+        output_df[c] = pd.Categorical(output_df[c], ordered=True)
+        #print(output_df[c].dtype)
+        
+    ###########################################
     
     procs = [Categorify]
     data_tab = (TabularList.from_df(output_df, cat, cont, procs=procs)
